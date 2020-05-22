@@ -1,0 +1,15 @@
+{
+  "name": "WebTimer",
+  "version": "1.0.0",
+  "description": "WebTimer 1.0",
+  "main": "app.js",
+  "repository": "npm/npm",
+  "author": "Paolo amico <paolo@complic.eu>",
+  "license": "MIT",
+  "readme": "WebTimer cloud",
+  "dependencies": {
+    "fs": "*",
+    "http": "*",
+    "socket.io": "^2.3.0"
+  }
+}

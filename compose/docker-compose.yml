@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+
+  webtimer:
+    image: registry.complic.cloud/complic/webtimer/docker/nodejs:dev
+    build:
+      context: docker/webtimer
+    ports:
+      - 3000:3000
+#    volumes:
+#      - ./docker/webtimer/app:/var/node/app
+    environment:
+      WS_PORT: "3000"
+#       WB_SERVER: ""
+#       WS_DATABASE: "192.168.0.104"
